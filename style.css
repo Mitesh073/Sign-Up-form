@@ -1,57 +1,73 @@
-*{
-    margin: 0;
-    padding: 0;
-    box-sizing: border-box;
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
 }
-body{
-    background-color: #f2f2f2;
-    display: grid;
-    justify-content: center;
-    align-items: center;
-    height: 100vh;
+body {
+  background-color: rgb(130, 184, 249);
 }
-.background{
-    background-color: antiquewhite;  
-    height: 600px;
-    border-radius: 20px;
+.head {
+  margin-top: 1rem;
 }
-h1{
-    text-align: center;
-    margin-bottom: 20px;
+.box {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  margin-top: 3rem;
 }
-.form{
-    margin: 40px;
+.form {
+  display: flex;
+  align-items: center;
+  flex-direction: column;
+  background-color: white;
+  width: 600px;
+  height: 500px;
+  box-shadow: 2px 4px 10px gray;
+  border: 1px solid black;
+  border-radius: 20px;
+  padding: 20px;
 }
-label{
-    width: 150px;
-    font-size: 20px;
-    display: inline-block;
+.input {
+  padding: 10px 15px;
+  border: 2px solid rgba(0, 0, 0, 0.4);
+  font-size: 18px;
+  outline: none;
+  border-radius: 10px;
+  background-color: rgba(0, 0, 0, 0.02);
 }
-.check{
-    font-size: 20px;
+label {
+  font-size: 18px;
+  letter-spacing: 1.4px;
 }
-.inp{
-    font-size: 25px;
-    margin: 25px 15px ;
+.tableForm {
+  margin-top: 10px;
 }
-.submit{
-    display: grid;
-    justify-content: center;
+.btn {
+  background-color: rgb(133, 185, 55);
+  color: white;
+  padding: 10px 20px;
+  font-size: large;
+  font-weight: 600;
+  border-radius: 10px;
 }
-.submited{
-    background-color: #f2f2f2;
-    padding: 8px 30px;
-    border-radius: 15px;
-    border: none;
-    font-weight: 600;
-    font-size: 20px;
+
+input:invalid:focus {
+  border: 2px solid red;
 }
-.tabel{
-    margin-top: 30px;
-    background-color: antiquewhite;  
-    border-radius: 20px;
+
+.table {
+  border: 2px solid black;
+  margin: 40px auto;
 }
-.tabel h1{
-    text-align: center;
-    margin-top: 10px;
+
+.td,
+.th {
+  padding: 10px;
+  text-align: center;
+}
+
+.subHead {
+  text-align: center;
+  margin-top: 2rem;
 }
